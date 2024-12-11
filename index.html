@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My World!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #eef1f330;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #00ffb7cb; /* Bootstrap primary color */
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            border-radius: 50%;
+            margin: 15px 0;
+            border: 3px solid rgb(255, 255, 255); /* Adding a border to the image */
+        }
+
+        section {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            padding: 12px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border 0.3s, box-shadow 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border: 1px solid #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 12px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        @media(max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prince Taukobong</h1>
+        <img src="profile.jpg" alt="my pic" width="150" height="150">
+        <section>
+            <h2>Search</h2>
+            <form action="" method="GET">
+                <label for="search">Search Keywords:</label>
+                <input type="text" id="search" name="search" placeholder="Enter keywords...">
+                <input type="submit" value="Search">
+            </form>
+        </section>
+
+        <section id="contact-details" class="contact-details">
+            <h2>Contact Details</h2>
+            <p>Number: 083 358 1940</p>
+            <p>Email: kgositau204@gmail.com</p>
+            <p>Telephone: 011 934 0893</p>
+        </section>
+        LinkedIn: <a href="https://www.linkedin.com/">mylinkedin</a><br>
+    </header>
+
+    <section>
+        <h2>Short Bio</h2>
+        <p>
+            I am an aspiring software developer with a strong passion for 
+            technology and continuous learning. I have been fascinated by how 
+            technology can solve problems and improve daily life. I am currently 
+            honing my skills in a rigorous six-month software engineering boot camp,
+            where I am learning valuable skills that will contribute to my growth 
+            in the technical space.
+        </p>
+        <p>
+            I thrive on problem-solving and enjoy the challenge of developing
+             creative solutions. My passions lie in continually learning new 
+             technologies and methodologies that I can implement in my work. 
+             I believe in the power of collaboration and often engage with teams 
+             to bring innovative projects to life.
+        </p>
+        <p>
+            I am motivated by the opportunity to make a positive impact through 
+            technology, and I aspire to work on projects that contribute to
+             bettering society. In my spare time, I enjoy researching and learning 
+             more about the software engineering space and working on improving 
+             my skills. I one day hope to participate in hackathons and contribute 
+             to open-source projects.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills and Competencies</h2>
+        <ul>
+            <li>Communication</li>
+            <li>Organization</li>
+            <li>Creativity</li>
+            <li>Resourcefulness</li>
+            <li>Decision-making</li>
+            <li>Problem-solving</li>
+            <li>Critical thinking</li>
+            <li>Teamwork</li>
+            <li>Analytical</li>
+            <li>Technical</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>
+            Bachelor of Science in Agricultural Economics<br>
+            I matriculated at Thabo Senior Secondary School, then I attended the 
+            University of Pretoria, where I pursued a BSc in Agricultural Economics 
+            for two years. Unfortunately, I had to drop out due to a lack of funding. 
+            However, I am now planning to complete my studies.
+        </p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <p><strong>Call Center Agent</strong><br>
+        Webhelp, 2020 - 2024<br>
+        I come from an administration and operations background with strong 
+        interests in customer service. I have extensive experience working as a 
+        call center agent in the international markets. I strive to do my job with 
+        initiative and determination to make a difference, and in order to thrive 
+        in my respective field, I am loyal, diligent, and proactive. I possess 
+        skills that contribute to a high level of efficiency and productivity. 
+        I have a positive mindset and am very enthusiastic about new developments 
+        and growth.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form action="" method="POST">
+            <label for="contactName">Name:</label>
+            <input type="text" id="contactName" name="name" required>
+
+            <label for="contactEmail">Email:</label>
+            <input type="email" id="contactEmail" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Prince Taukobong. All rights reserved.</p>
+    </footer>
+</body>
+</html>
